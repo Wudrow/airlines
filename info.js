@@ -13,39 +13,39 @@ function info(){
 	}
 	else{
 		document.getElementById("1").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(y==0){
 		document.getElementById("2").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("2").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(z==0){
 		document.getElementById("3").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("3").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(a==0){
 		document.getElementById("4").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("4").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(b==0){
 		document.getElementById("5").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("5").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(c==0){
 		document.getElementById("6").innerHTML = "input required";
@@ -53,26 +53,26 @@ function info(){
 	}
 	else{
 		document.getElementById("6").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(d==0){
 		document.getElementById("7").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("7").innerHTML = "";
-		check ++;
+		check++;
 	}
 	if(e==0){
 		document.getElementById("8").innerHTML = "input required";
-		check --;
+		check--;
 	}
 	else{
 		document.getElementById("8").innerHTML = "";
 	}
 	if(d>e){
 		document.getElementById("8").innerHTML = "invalid date";
-		check --;
+		check--;
 	}
 	if(a.includes("@yahoo.com")){
 		document.getElementById("4").innerHTML = "";

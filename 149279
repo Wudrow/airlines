@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-image: url('airlines.jpg');
+			}
+			.design{
+				background-color:azure;
+				border: solid 2px;
+				margin:5% 20%;
+				padding: 2% 5%;
+			}
+			table#tt{
+				padding: 5% 15%;
+			}
+			h1{
+				text-align:center;
+			}
+		</style>
+		<script src="info.js"></script>
+	</head>
+	<body>
+		<div class="design">
+			<h1>UP Mindanao Airlinen Express Online Booking</h1>
+			<h3>Passenger and Flight Details</h3>
+			<table id="tt">
+				<tr>
+					<td>Last Name: </td>
+					<td><input type="text" id="name1"> </td>
+					<td><p id="1"></p></td>
+				</tr>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" id="name2"> </td>
+					<td><p id="2"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><select id="gender">
+						<option value=""> </option>
+						<option value="male">male</option>
+						<option value="female">female</option>
+						</select></td>
+					<td><p id="3"></p></td>
+				</tr>
+				<tr>
+					<td>Email Address:</td>
+					<td><input type="text" id="email"> </td>
+					<td><p id="4"></p></td>
+				</tr>
+				<tr>
+					<td>Origin:</td>
+					<td><input type="text" id="origin"> </td>
+					<td><p id="5"></p></td>
+				</tr>
+				<tr>
+					<td>Destination:</td>
+					<td><input type="text" id="destination"> </td>
+					<td><p id="6"></p></td>
+				</tr>
+				<tr>
+					<td>Departure Date:</td>
+					<td><input type="date" id="departure"> </td>
+					<td><p id="7"></p></td>
+				</tr>
+				<tr>
+					<td>Return Date:</td>
+					<td><input type="date" id="return"> </td>
+					<td><p id="8"></p></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td><input type="button" onclick="info()" value="submit"></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>	

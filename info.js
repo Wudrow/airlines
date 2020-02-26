@@ -90,7 +90,7 @@ function info(){
 		document.getElementById("4").innerHTML = "invalid email";
 		check--;
 	}
-	if(check>6){
+	if(check>7){
 		alert("Booking successfull");
 	}
 	check=0;

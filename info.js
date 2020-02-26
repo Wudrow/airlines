@@ -12,6 +12,7 @@ function info(){
 		document.getElementById("1").innerHTML = "input required";
 	}
 	else{
+		document.getElementById("1").innerHTML = "";
 		check ++;
 	}
 	if(y==0){
@@ -19,6 +20,7 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("2").innerHTML = "";
 		check ++;
 	}
 	if(z==0){
@@ -26,6 +28,7 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("3").innerHTML = "";
 		check ++;
 	}
 	if(a==0){
@@ -33,6 +36,7 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("4").innerHTML = "";
 		check ++;
 	}
 	if(b==0){
@@ -40,6 +44,7 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("5").innerHTML = "";
 		check ++;
 	}
 	if(c==0){
@@ -47,6 +52,7 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("6").innerHTML = "";
 		check ++;
 	}
 	if(d==0){
@@ -54,23 +60,30 @@ function info(){
 		check --;
 	}
 	else{
+		document.getElementById("7").innerHTML = "";
 		check ++;
 	}
 	if(e==0){
 		document.getElementById("8").innerHTML = "input required";
 		check --;
 	}
+	else{
+		document.getElementById("8").innerHTML = "";
+	}
 	if(d>e){
 		document.getElementById("8").innerHTML = "invalid date";
 		check --;
 	}
 	if(a.includes("@yahoo.com")){
+		document.getElementById("4").innerHTML = "";
 		check++;
 	}
 	else if(a.includes("@gmail.com")){
+		document.getElementById("4").innerHTML = "";
 		check++;
 	}
 	else if(a.includes("@up.edu.ph")){
+		document.getElementById("4").innerHTML = "";
 		check++;
 	}
 	else{
